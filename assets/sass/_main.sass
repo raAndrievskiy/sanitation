@@ -1,0 +1,476 @@
+.breadcrumbs
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 10px 0
+  &-wrap
+    display: flex
+    align-items: center
+  &-img
+    margin-right: 10px
+  &-link
+    font-size: 14px
+    color: #000
+    font-weight: 300
+    &:not(:last-child)
+      color: #169CD8
+      font-weight: 500
+      margin-right: 15px
+  &-bank
+    margin-right: 50px
+
+.main-swiper-wrap
+  position: relative
+  .slider-main-btn
+    text-transform: none
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    font-family: Lora
+    font-weight: bold
+    font-size: 20px
+    position: absolute
+    right: 0
+    margin-top: 20px
+    width: 170px
+    text-align: center
+
+.main-swiper
+  position: relative
+  z-index: 1
+  width: 1200px
+  height: 730px
+  .title-swiper
+    color: #00A9E5
+    text-shadow: 2px 2px 15px #FFFFFF
+    text-align-last: left
+  .background-blur
+    width: 830px
+    height: 190px
+    background: #FFFFFF
+    filter: blur(80px)
+    position: absolute
+    z-index: -1
+  .title-subtitle
+    font-family: Roboto
+    font-weight: 900
+    font-size: 40px
+    color: #00A9E5
+    text-shadow: 1.67726px 1.67726px 12.5795px #FFFFFF
+    padding-top: 50px
+  .title-description
+    font-family: Roboto
+    font-weight: 900
+    font-size: 33px
+    color: #333333
+    text-shadow: 1.67726px 1.67726px 12.5795px #FFFFFF
+
+.yit-wcan-container
+  width: auto
+.catalog-wrap
+  margin-top: 100px
+  .title
+    margin-bottom: 40px
+.catalog
+  border: 1px solid #6EB82E
+  padding: 35px 0 90px 55px
+  max-width: 1300px
+  &-active
+    background: #90C74F
+    border: 1px solid #90C74F
+    box-sizing: border-box
+    border-radius: 10px 10px 0px 0px
+    max-width: 95%
+    text-align: center
+    padding: 10px 0
+    margin-bottom: 30px
+    &-text
+      font-size: 20px
+      line-height: 23px
+      color: #3C8000
+  .filter-item
+    border: 1px solid #6EB82E
+    border-radius: 5px
+    color: #000
+    padding: 10px 0
+    width: 180px
+    font-family: Lora
+    font-weight: bold
+    font-size: 16px
+    line-height: 21px
+    text-align: center
+  .filter-content, .woocommerce-pagination
+    padding-right: 60px
+.associates
+  margin-bottom: 120px
+  &-title
+    margin: 70px 0 40px
+
+  .associates-slider
+    .swiper-wrapper
+      align-items: center
+      .swiper-slide
+        width: auto
+
+.services
+  .title
+    margin-top: 50px
+    margin-bottom: 40px
+  &-block
+    display: flex
+    &-wrap
+      border: 1px solid #9EC2E5
+      box-sizing: border-box
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+      border-radius: 16px
+      padding-bottom: 20px
+      &:not(:last-child)
+        margin-right: 30px
+      .services-title
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 21px
+        text-align: center
+        text-decoration-line: underline
+        text-transform: uppercase
+        color: #6EB82E
+        padding-top: 10px
+        padding-bottom: 40px
+        height: 92px
+        &-one
+          padding-bottom: 20px
+      .excerpt
+        font-weight: 300
+        font-size: 15px
+        line-height: 18px
+        text-align: center
+        color: #595959
+        padding-bottom: 30px
+      .btn
+        width: 250px
+        display: flex
+        justify-content: center
+        margin-left: 65px
+.services-popup
+  padding: 0
+  width: 1120px
+  border-radius: 15px
+  &-header
+    max-width: 1120px
+    background: linear-gradient(180deg, #9FFF4B 0%, #5BB80A 100%)
+    border-radius: 15px
+  &-content
+    padding: 35px 25px 15px 35px
+    display: flex
+    flex-wrap: wrap
+    h2
+      font-style: normal
+      font-weight: 500
+      font-size: 24px
+      line-height: 30px
+      color: #6EB82E
+      width: 100%
+    ul
+      width: 550px
+      margin-bottom: 30px
+      li
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 30px
+        color: #595959
+        display: flex
+        &:before
+          content: '\2022'
+          color: #79DB1A
+          font-weight: bold
+          font-size: 30px
+          margin-right: 8px
+    p
+      font-family: Roboto
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 30px
+      color: #595959
+
+.video
+  margin-top: 100px
+  .title
+    margin-bottom: 40px
+  .img-link
+    border-radius: 15px
+  .video-play
+    position: absolute
+    z-index: 10
+    left: 230px
+    top: 90px
+  .video-btn-next
+    position: absolute
+    right: 20px
+    top: -20px
+  .video-btn-prev
+    position: absolute
+    left: 0
+    top: -20px
+
+.consultation-wrap
+  background: #D5FFC6
+  position: relative
+  margin-bottom: 100px
+  .consultation
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    &-img
+      position: absolute
+      bottom: 0
+      left: 140px
+.testimonial-name
+  font-size: 24px
+  color: #4F5662
+  margin-bottom: 20px
+.rewiews
+  &-block
+    display: flex
+    padding-top: 60px
+
+    &-avatar
+      width: 135px
+      height: 135px
+    &-wrap
+      padding-left: 20px
+      .rewiews-img
+        width: 80px
+        height: 50px
+        margin-bottom: 15px
+
+.footer-wrap
+  background: #D5FFC6
+  margin-top: 40px
+  padding-top: 30px
+  .footer
+    display: flex
+    color: #3c8000
+    &-logo
+      width: 175px
+      height: 150px
+      margin-right: 135px
+    &-nav
+      margin-right: 30px
+      &-ul li
+        font-size: 18px
+        margin-bottom: 10px
+      .bank
+        margin: 35px 0 15px
+      .footer-text
+        font-size: 15px
+        padding-bottom: 40px
+    &-info
+      font-size: 18px
+      line-height: 150%
+      margin-right: 90px
+      &-contact
+        font-weight: bold
+        display: flex
+        color: #3c8000
+      &-time
+        font-style: 15px
+        opacity: 0.5
+    &-social-wrap
+      .btn
+        height: 55px
+        width: 270px
+        justify-content: center
+        display: flex
+        align-items: center
+      .social
+        margin-top: 30px
+        text-align: center
+.video
+  width: 100%
+  height: 100%
+.btn.slider-main-btn
+  display: none
+.swiper-button-prev,.swiper-button-next
+  width: 80px
+.footer-modal
+  display: none
+  .wpcf7-form.init p
+    display: block
+    span input
+      border-radius: 5px
+      width: 100%
+      margin: 10px 5px 5px 25px
+      padding: 10px 0 !important
+#modal-page-contant-one, #modal-page-contant-two, #modal-page-contant-three
+  padding: 0
+  border-radius: 15px
+  overflow: hidden
+  .wp-post-image
+    width: 370px
+    height: 490px
+  .product-contant-wrap
+    display: flex
+    .product-text-wrap
+      max-width: 650px
+      margin-top: 65px
+      position: relative
+      .popup-product-title
+        font-weight: 500
+        font-size: 24px
+        line-height: 30px
+        color: #6EB82E
+        text-transform: uppercase
+      ul
+        border-bottom: 1px solid #d1d1d1
+        padding-bottom: 30px
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 30px
+        color: #595959
+        li::before
+          content: "\2022"
+          color: #79DB1A
+          font-weight: bold
+          display: inline-block
+          width: 1em
+          margin-left: -1em
+      p
+        font-weight: 900
+        font-size: 32px
+        line-height: 37px
+        color: #4E4E4E
+        margin-top: 35px
+      .wrap-btn
+        bottom: 30px
+        left: 190px
+        max-width: 400px
+        .btn, .credit
+          width: 55%
+          text-align: center
+  .footer-popup
+    padding-bottom: 40px
+    &-text
+      margin-bottom: 25px
+.footer-nav-link
+  font-family: Lora
+  font-weight: 500
+  font-size: 18px
+  line-height: 24px
+  color: #60BD0E
+  padding-top: 5px
+  padding-left: 10px
+  &:first-child
+    padding-left: 20px
+    &:hover
+      color: #0088B3
+      text-decoration: underline
+@media screen and (max-width: 1024px)
+  .consultation-wrap
+    display: none
+  .services-popup-header
+    font-size: 23px
+@media screen and (max-width: 768px)
+  .breadcrumbs
+    &-link
+      font-size: 11px
+    &-bank
+      display: none
+  .services
+    &-block
+      display: block
+      width: 100%
+      &-wrap
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+        margin-bottom: 10px
+        .btn
+          width: 80%
+  .btn.slider-main-btn
+    display: none
+  .catalog .filter-item
+    font-size: 9px
+  .catalog-active
+    max-width: 89%
+  .woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product
+    width: 90%
+    img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail
+      margin-left: 15px
+    .wrap-btn
+      width: 80%
+  .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n)
+    float: none
+  .blur-wrap
+    display: none
+  .n2-ow.n2-ow-all .n2-font-84db296a2bce142bfe35b4c6f8c97098-paragraph.n2-ow
+    font-size: 25px !important
+    padding-top: 170px
+  .associates-title
+    margin: 30px 0 0 0
+  .video-play
+    display: none
+  .footer-wrap
+    .footer
+      text-align: center
+      display: block
+      &-logo
+        margin: 0
+      &-info-contact
+        justify-content: center
+      &-info
+        margin: 0
+      &-social-wrap
+        .btn
+          margin: auto
+  #services-popup form p
+    display: block
+    text-align: center
+  #order-product, #credit-product
+    text-align: center
+    p
+      margin-left: 5px
+      width: 98%
+    .wpcf7-form p
+      margin-left: 5px
+      display: block
+      span
+        input
+          margin-bottom: 10px
+      .btn
+        margin-left: 60px
+
+  #modal-page-contant-one, #modal-page-contant-two, #modal-page-contant-three
+    .product-contant-wrap
+      display: block
+      text-align: center
+      .product-text-wrap
+        text-align-last: left
+        padding-left: 15px
+        margin: 0
+        .wrap-btn
+          bottom: -20px
+    .footer-popup .wpcf7 p
+      display: block
+      text-align: center
+      input
+        margin-bottom: 5px
+
+  .footer
+    .footer-nav-link
+      display: block
+    .footer-modal
+      width: 270px
+      margin: auto
+@media screen and (max-width: 320px)
+  .woocommerce ul.products.columns-3 li.product img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail, .woocommerce-page ul.products.columns-3 li.product img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail
+    margin-left: 0
+  .woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product
+    .wrap-btn
+      height: 40px
+      a
+        font-size: 11px
+        padding: 0

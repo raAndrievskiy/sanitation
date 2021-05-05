@@ -1,0 +1,16 @@
+/**
+ * Theme Name:  Автономные канализации
+ * Description: Сайт с услугами
+ * 
+ * Author:      Roman Andrievsky
+ * Author URI:  URL автора
+ *
+ * Tags:        black, brown, orange
+ * Text Domain: АвтономныеКанализации
+ *
+ *
+ * Version:     1.0
+ */
+#footer {
+  display: none;
+}
